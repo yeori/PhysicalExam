@@ -71,6 +71,13 @@ public class PhysicalExam {
 		return 0;
 	}
 	/**
+	 * 여학생 BMI 수치 평균값
+	 * @return
+	 */
+	public double getAvrBmiGirl() {
+		return 0;
+	}
+	/**
 	 * 가장 키가 큰 학생
 	 * @return
 	 */
@@ -84,6 +91,7 @@ public class PhysicalExam {
 	public StudentData getSmallestGirl() {
 		return null;
 	}
+	
 	
 	
 	public List<Double> gathering (List<StudentData> src, Filter filter, Mapper mapper ) {
